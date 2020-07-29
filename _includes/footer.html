@@ -9,17 +9,16 @@
         <ul class="contact-list">
           <li><strong>{{ site.title }}</strong></li>
 			<li>{{ site.jobtitle }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>{{ site.email }}</li>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-2">
- 
+
 
          <p class="text">
-		Department of Political Science<br />
-		232 Brackett Hall<br />
-		Clemson, SC 29634-1354</p> <!-- {{ site.description }} -->
+         {{ site.address | newline_to_br }}
+        </p>
       </div>
 
       <div class="footer-col  footer-col-3">
@@ -32,7 +31,7 @@
     </a>
   </li>
 {% endif %}
-     
+
 
           {% if site.github_username %}
   <li>
@@ -63,7 +62,7 @@
 
 
 
-       
+
         </ul>
       </div>
     </div>

@@ -1,31 +1,20 @@
 - title: "About"
-  href: "/about/"
+  href: "/"
 
 - title: "Blog"
   href: "/blog/"
 
-- title: "CV"
-  href: "/cv/"
+# - title: "CV"
+#   href: "/cv/"
 
-- title: "For Students"
-  href: "/for-students/"
-  subcategories:
-    - subtitle: "Letters of Recommendation"
-      subhref: "/for-students/letters-of-recommendation/"
-    - subtitle: "Pi Sigma Alpha"
-      subhref: "/for-students/pi-sigma-alpha/"
+- title: "Publications"
+  href: "/publications/"
 
-- title: "Research"
-  href: "/research/"
+#- title: "Research"
+#  href: "/research/"
 
 - title: "Teaching"
   href: "/teaching/"
   subcategories:
-    - subtitle: "POSC 1020 – Introduction to International Relations"
-      subhref: "http://posc1020.svmiller.com"
-    - subtitle: "POSC 3410 – Quantitative Methods in Political Science"
-      subhref: "/teaching/posc-3410-quantitative-methods-in-political-science/"
-    - subtitle: "POSC 3610 – International Conflict"
-      subhref: "http://posc3610.svmiller.com"
-    - subtitle: "POSC 3630 – United States Foreign Policy"
-      subhref: "/teaching/posc-3630-united-states-foreign-policy/"
+    - subtitle: "CSCI7000 – Distributed Systems Verification"
+      subhref: "https://gowthamk.github.io/cs_f20/"
